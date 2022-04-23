@@ -9,7 +9,7 @@ for i in range(0,50):
 entrada_number.sort() #função que ordena valores em ordem crescente
 print("Lista dos valores do vetor: {}" .format(entrada_number))
 for i in range(0, len(entrada_number)-1): #
-  if entrada_number[i]==(entrada_number[i+1]): #compara o valor do indice atual com o próximo. Por isso "-1" no for 
+  if entrada_number[i]==(entrada_number[i+1]): #compara o valor do indice atual com o próximo. Por isso "-1" no for para não dar erro ao chegar no último indice
     repetidos+=1
     a = entrada_number[i]
     b =entrada_number[i+1]
